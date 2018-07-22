@@ -20,7 +20,9 @@ package com.chenxun.demo.service;
  */
 public interface HelloService {
 	
-	void say();
+	void say1();
+
+	void say2();
 
 }
 

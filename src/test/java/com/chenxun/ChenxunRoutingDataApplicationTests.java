@@ -16,8 +16,13 @@ public class ChenxunRoutingDataApplicationTests {
 	private HelloService helloService;
 	
 	@Test
-	public void testSay(){
-		helloService.say();
+	public void testSay1(){
+		helloService.say1();
+	}
+
+	@Test
+	public void testSay2(){
+		helloService.say2();
 	}
 	
 
